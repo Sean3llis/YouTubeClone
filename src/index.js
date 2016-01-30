@@ -12,6 +12,5 @@ const App = () => {
     </div>
   )
 }
-console.log(API_KEY);
 
 ReactDOM.render(<App />, document.getElementById('app'));
