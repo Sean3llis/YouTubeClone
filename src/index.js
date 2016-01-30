@@ -5,6 +5,7 @@ import API_KEY from './private/api_key';
 
 // Components:
 import SearchBar from './components/search_bar';
+import VideoList from './components/video_list';
 
 
 
@@ -22,7 +23,10 @@ class App extends Component {
 
   render() {
     return (
-      <SearchBar />
+      <div>
+        <SearchBar />
+        <VideoList videos={this.state.videos} />
+      </div>
     );
   }
 }
