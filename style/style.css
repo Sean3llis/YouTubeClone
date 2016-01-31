@@ -1,0 +1,23 @@
+.list-group-item {
+  cursor: pointer;
+}
+
+.list-group-item:hover {
+  background-color: #eee;
+}
+
+.video-detail .detail {
+  margin-top: 20px;
+  padding: 20px;
+  border: 1px solid #ddd;
+}
+
+.search-bar {
+  text-align: center;
+  width: 100%;
+  margin: 80px auto 20px auto;
+}
+
+.search-bar input {
+  width: 100%;
+}
