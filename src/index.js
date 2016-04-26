@@ -16,9 +16,15 @@ class App extends Component {
     super(props);
     this.state = {
       videos: [],
-      selectedVideo: null
+      selectedVideo: null,
+      dividers: [
+        {
+          time: '0:46',
+          title: 'First Marker'
+        }
+      ]
     }
-    this.videoSearch('texas longhorns')
+    this.videoSearch('texas longhorns');
 
   }
 
